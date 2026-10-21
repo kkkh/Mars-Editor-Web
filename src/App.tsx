@@ -2,6 +2,7 @@ import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import EditorPane from './components/EditorPane';
 import FileTree from './components/FileTree';
 import PreviewPane from './components/PreviewPane';
+import SiteFooter from './components/SiteFooter';
 import ThemeRail from './components/ThemeRail';
 import Toolbar from './components/Toolbar';
 import {
@@ -552,6 +553,7 @@ export default function App() {
           />
         </div>
       </main>
+      <SiteFooter />
     </div>
   );
 }
